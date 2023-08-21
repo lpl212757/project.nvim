@@ -82,9 +82,9 @@ local function find_project_files(prompt_bufnr)
     hidden = config.options.show_hidden,
     mode = "insert",
   }
-  if cd_successful then
-    builtin.find_files(opt)
-  end
+  -- if cd_successful then
+  --   builtin.find_files(opt)
+  -- end
 end
 
 local function browse_project_files(prompt_bufnr)
